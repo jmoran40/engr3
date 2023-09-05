@@ -43,8 +43,7 @@ What went wrong / was challenging, how'd you figure it out, and what did you lea
 
 
 
-## How To Fix the LCD power issue with Metro M4 boards.
-
+## CircuitPython_Servo
 ### Description & Code
 
 * **The symptoms:**  LCD acting weird OR trouble with usb connection / serial monitor / uploading / etc.
