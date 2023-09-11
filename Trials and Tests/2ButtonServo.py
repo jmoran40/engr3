@@ -23,11 +23,11 @@ while True:
         if Rotation > 180:
             Rotation = 180
         print(Rotation)
-        time.sleep(0.01)
+        time.sleep(0.1)
     
     if buttonBLUE:
         Rotation = Rotation - 1
         if Rotation < 0:
             Rotation = 0
         print(Rotation)
-        time.sleep(0.01)
+        time.sleep(0.1)
