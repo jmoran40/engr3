@@ -13,3 +13,21 @@ buttonRED.pull = Pull.DOWN
 buttonBLUE = DigitalInOut(board.A5)
 buttonBLUE.direction = Direction.INPUT
 buttonBLUE.pull = Pull.DOWN
+
+servo = servo.Servo(pwn)
+Rotation = 90
+
+while True:
+    if buttonRED:
+        Rotation = Rotation + 1
+        if Rotation > 180:
+            Rotation = 180
+        print(Rotation)
+        time.sleep(0.01)
+    
+    if buttonBLUE:
+        Rotation = Rotation - 1
+        if Rotation < 0:
+            Rotation = 0
+        print(Rotation)
+        time.sleep(0.01)
