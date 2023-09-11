@@ -96,3 +96,37 @@ Code goes here
 ### Wiring
 
 ### Reflection
+
+## NextAssignment2
+
+### Description & Code
+
+```python
+Code goes here
+
+```
+
+### Evidence
+
+### Wiring
+
+### Reflection
+
+
+
+
+
+## NextAssignment3
+
+### Description & Code
+
+```python
+Code goes here
+
+```
+
+### Evidence
+
+### Wiring
+
+### Reflection
