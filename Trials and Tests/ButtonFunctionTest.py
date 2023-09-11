@@ -17,6 +17,6 @@ buttonBLUE.pull = Pull.DOWN
 servo = servo.Servo(pwn)
 
 while True:
-    print(buttonRED)
-    print(buttonBLUE)
+    print(buttonRED.value)
+    print(buttonBLUE.value)
     time.sleep(0.1)
