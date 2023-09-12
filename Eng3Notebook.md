@@ -57,7 +57,7 @@ import pwmio
 from adafruit_motor import servo
 from digitalio import DigitalInOut, Direction, Pull
 
-pwn = pwmio.PWMOut(board.D3, duty_cycle=0, frequency=50)
+pwn = pwmio.PWMOut(board.D3, duty_cycle=2**15, frequency=50)
 
 buttonRED = DigitalInOut(board.A4)
 buttonRED.direction = Direction.INPUT
@@ -70,9 +70,10 @@ buttonBLUE.pull = Pull.DOWN
 servo = servo.Servo(pwn)
 Rotation = 90
 
+
 while True:
     if buttonRED.value:
-        Rotation = Rotation + 1
+        Rotation = Rotation + 10
         if Rotation > 180:
             Rotation = 180
         print(Rotation)
@@ -80,7 +81,7 @@ while True:
         time.sleep(0.1)
     
     if buttonBLUE.value:
-        Rotation = Rotation - 1
+        Rotation = Rotation - 10
         if Rotation < 0:
             Rotation = 0
         print(Rotation)
@@ -93,8 +94,8 @@ while True:
 ![WiringSolution](images/I2C_M4_Solution.png)
 
 
-
-
+### Reflection
+First assignment of the year and it I feel like ive been thrown into the deep end of a pool. The good news was though I was quite lost at the start, by the end I had learned the essentials of working with CircuitPython. This not only applies in the literal sense of getting to understand the code language itself, but understanding the tools that are used to convey that language. Even now as a write this I'm learning how to utilize the connection between Visual Studio Code and Github. As for the assignment itself, the hardware was familar albeit shinier and the software took some time to understand but wasn't too overwealming.
 
 
 ## CircuitPython_LCD
