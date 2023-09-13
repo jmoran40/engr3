@@ -91,7 +91,7 @@ while True:
 ```
 ### Wiring
 
-![WiringSolution](images/I2C_M4_Solution.png)
+![WiringSolution](C:\Users\jmoran40\Pictures\Screenshots\Screenshot (1).png)
 
 
 ### Reflection
