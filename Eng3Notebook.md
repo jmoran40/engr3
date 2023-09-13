@@ -91,7 +91,7 @@ while True:
 ```
 ### Wiring
 
-![WiringSolution]file:///C:/Users/jmoran40/Pictures/Screenshots/Screenshot%20(1).png
+![WiringSolution](file:///C:/Users/jmoran40/Pictures/Screenshots/Screenshot%20(1).png)
 
 
 ### Reflection
