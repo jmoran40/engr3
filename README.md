@@ -5,7 +5,7 @@ This repository will actually serve as an aid to help you get started with your 
 * [Hello_CircuitPython](#Hello_CircuitPython)
 * [CircuitPython_Servo](#CircuitPython_Servo)
 * [CircuitPython_LCD](#CircuitPython_LCD)
-* [NextAssignmentGoesHere](#NextAssignment)
+* [Distance Sensor](#DistanceSensor)
 * [NextAssignment2](#NextAssignment2)
 * [NextAssignment3](#NextAssignment3)
 ---
@@ -119,7 +119,7 @@ Pictures / Gifs of your work should go here.  You need to communicate what your 
 
 
 
-## NextAssignment
+## Distance Sensor
 
 ### Description & Code
 
