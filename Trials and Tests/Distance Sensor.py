@@ -10,11 +10,25 @@ PIN = board.NEOPIXEL  # This is the default pin on the 5x5 NeoPixel Grid BFF.
 
 pixels = neopixel.NeoPixel(PIN, NUMPIXELS, brightness=BRIGHTNESS, auto_write=False)
 sonar = adafruit_hcsr04.HCSR04(trigger_pin=board.D5, echo_pin=board.D6)
+RED = (255, 0, 0)
+GREEN = (0, 255, 0)
+BLUE = (0, 0, 255)
 
 while True:
     try:
-        print((sonar.distance,))
+        print((sonar.distance))
+        time.sleep(0.1)
+        if (sonar.distance < 5):
+            pixels.fill(RED)
+            pixels.show()
+            time.sleep(0.1)
+        elif (sonar.distance > 35):
+            pixels.fill(GREEN)
+            pixels.show()
+            time.sleep(0.1)
+        else:
+            pixels.fill(BLUE)
+            pixels.show()
+            time.sleep(0.1)
     except RuntimeError:
         print("Retrying!")
-    time.sleep(0.1)
-    
