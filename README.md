@@ -122,7 +122,7 @@ Pictures / Gifs of your work should go here.  You need to communicate what your 
 ## Distance_Sensor
 
 ### Description & Code
-
+In this assignment I was tasked with making an RGB LED display different colors based on the input of an Ultrasonic Sensor
 ```python
 Code goes here
 
@@ -133,6 +133,10 @@ Code goes here
 ### Wiring
 
 ### Reflection
+The wiring of this assignment was not at all hard because it remained the same from last year.
+
+
+
 
 ## NextAssignment2
 
