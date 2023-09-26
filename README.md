@@ -46,9 +46,9 @@ What went wrong / was challenging, how'd you figure it out, and what did you lea
 
 
 ## CircuitPython_Servo
+
 ### Description & Code
 In this assignment I was tasked with controlling a 180 micro servo using two buttons.
-
 
 ```python
 import time
@@ -87,15 +87,16 @@ while True:
         print(Rotation)
         servo.angle = Rotation
         time.sleep(0.1)
-
 ```
 ### Wiring
 
 ![Screenshot (2)](https://github.com/jmoran40/engr3/assets/143545030/aefc10dc-8f32-460f-9e4a-cdde9f1cb324)
 
-
 ### Reflection
 First assignment of the year and it I feel like ive been thrown into the deep end of a pool. The good news was though I was quite lost at the start, by the end I had learned the essentials of working with CircuitPython. This not only applies in the literal sense of getting to understand the code language itself, but understanding the tools that are used to convey that language. Even now as a write this I'm learning how to utilize the connection between Visual Studio Code and Github. As for the assignment itself, the hardware was familar albeit shinier and the software took some time to understand but wasn't too overwealming.
+
+
+
 
 
 ## CircuitPython_LCD
@@ -123,17 +124,66 @@ Pictures / Gifs of your work should go here.  You need to communicate what your 
 
 ### Description & Code
 In this assignment I was tasked with making an RGB LED display different colors based on the input of an Ultrasonic Sensor
-```python
-Code goes here
 
+```python
+import time
+import board
+import adafruit_hcsr04
+import neopixel
+import simpleio
+
+NUMPIXELS = 1  # Update this to match the number of LEDs.
+SPEED = 0.1  # Increase to slow down the rainbow. Decrease to speed it up.
+BRIGHTNESS = 0.2  # A number between 0.0 and 1.0, where 0.0 is off, and 1.0 is max.
+PIN = board.NEOPIXEL  # This is the default pin on the 5x5 NeoPixel Grid BFF.
+
+pixels = neopixel.NeoPixel(PIN, NUMPIXELS, brightness=BRIGHTNESS, auto_write=False)
+sonar = adafruit_hcsr04.HCSR04(trigger_pin=board.D5, echo_pin=board.D6)
+RED = (255, 0, 0)
+GREEN = (0, 255, 0)
+BLUE = (0, 0, 255)
+
+while True:
+    try:
+        print((sonar.distance))
+        time.sleep(0.1)
+        if (sonar.distance < 5):
+            pixels.fill(RED)
+            pixels.show()
+            time.sleep(0.1)
+        elif (5 < sonar.distance < 20):
+            x = simpleio.map_range((sonar.distance),5,20,0,255)
+            pixels.fill((255-x, 0, x))
+            pixels.show()
+            time.sleep(0.1)
+        elif (sonar.distance == 20):
+            pixels.fill(BLUE)
+            pixels.show()
+            time.sleep(0.1)
+        elif (20 < sonar.distance < 35):
+            x = simpleio.map_range((sonar.distance),20,35,0,255)
+            pixels.fill((0, x, 255-x))
+            pixels.show()
+            time.sleep(0.1)
+        elif (sonar.distance > 35):
+            pixels.fill(GREEN)
+            pixels.show()
+            time.sleep(0.1)
+    except RuntimeError:
+        print("Retrying!")
 ```
 
 ### Evidence
 
+![ezgif com-optimize](https://github.com/jmoran40/engr3/assets/143545030/0c332e21-a4b4-4b45-a37e-31cb87afc3c8)
+
 ### Wiring
 
+![Screenshot (7)](https://github.com/jmoran40/engr3/assets/143545030/d578fd33-adc2-4b64-af84-52fbcaad6644)
+
 ### Reflection
-The wiring of this assignment was not at all hard because it remained the same from last year.
+The wiring of this assignment was not at all hard because it remained the same from last year. The coding was not so easy. In perticular it was the level of specification required for the RGB to work that caused the most issues. On the bright side (heh), this assignent has reawakened my engineering paranioa so little mistakes will hopefully be easier to spot in the future and the visual spectacle that came upon the completion of the assignment was dopamine inducing to say the least.
+
 
 
 
