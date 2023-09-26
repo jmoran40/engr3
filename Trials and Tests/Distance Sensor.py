@@ -2,6 +2,7 @@ import time
 import board
 import adafruit_hcsr04
 import neopixel
+import simpleio
 
 NUMPIXELS = 1  # Update this to match the number of LEDs.
 SPEED = 0.1  # Increase to slow down the rainbow. Decrease to speed it up.
@@ -22,12 +23,22 @@ while True:
             pixels.fill(RED)
             pixels.show()
             time.sleep(0.1)
-        elif (sonar.distance > 35):
-            pixels.fill(GREEN)
+        elif (5 < sonar.distance < 20):
+            x = simpleio.map_range((sonar.distance),5,20,0,255)
+            pixels.fill((255-x, 0, x))
             pixels.show()
             time.sleep(0.1)
-        else:
+        elif (sonar.distance == 20):
             pixels.fill(BLUE)
+            pixels.show()
+            time.sleep(0.1)
+        elif (20 < sonar.distance < 35):
+            x = simpleio.map_range((sonar.distance),20,35,0,255)
+            pixels.fill((0, x, 255-x))
+            pixels.show()
+            time.sleep(0.1)
+        elif (sonar.distance > 35):
+            pixels.fill(GREEN)
             pixels.show()
             time.sleep(0.1)
     except RuntimeError:
