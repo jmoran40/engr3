@@ -8,7 +8,7 @@ This repository will actually serve as an aid to help you get started with your 
 * [Distance Sensor](#Distance_Sensor)
 * [NextAssignment2](#NextAssignment2)
 * [NextAssignment3](#NextAssignment3)
-* [Onshape: Hanger](#Onshape: Hanger
+* [Onshape Hanger](#OnshapeHanger)
 ---
 
 ## Hello_CircuitPython
@@ -227,7 +227,7 @@ Code goes here
 
 
 
-## Onshape:_Hanger
+## Onshape_Hanger
 
 ### Assignment Description
 
