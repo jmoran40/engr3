@@ -235,9 +235,9 @@ In this assignment I was tasked with creating an Onshape model of a hanger using
 
 ### Evidence
 
-Take several cropped screenshots of your Onshape document from different angles. Try to capture all important aspects of the design. Turn off overlays that obscure the parts, such as planes or mate connectors. Your images should have captions, so the reader knows what they are looking at!  
+![Screenshot (8)](https://github.com/jmoran40/engr3/assets/143545030/6c0a0c7c-2276-45ed-927c-c57e23e14b3d)
 
-### Part Link 
+### Part Link
 
 [The Hanger](https://cvilleschools.onshape.com/documents/89cfbffc3234559d2e2b49d1/w/b9303e32817641222ffe2adb/e/7074864c13d3b3d2b6e61565?renderMode=0&uiState=651c614f733921666e1a872d).
 
