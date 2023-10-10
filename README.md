@@ -6,9 +6,9 @@ This repository will actually serve as an aid to help you get started with your 
 * [CircuitPython_Servo](#CircuitPython_Servo)
 * [CircuitPython_LCD](#CircuitPython_LCD)
 * [Distance Sensor](#Distance_Sensor)
-* [Onshape Hanger](#Onshape_Hanger)
-* [NextAssignment2](#NextAssignment2)
-* [NextAssignment3](#NextAssignment3)
+* [Onshape_Hanger](#Onshape_Hanger)
+* [Onshape_Swing_Arm](#Onshape_Swing_Arm)
+* [BlankAssignment](#BlankAssignment)
 * [NextAssignment](#NextAssignment)
 ---
 
@@ -211,14 +211,9 @@ This assignment was a nice little reminder of the mechanics of Onshape. Designin
 
 
 
-## NextAssignment2
+## Onshape_Swing_Arm
 
-### Description & Code
-
-```python
-Code goes here
-
-```
+### Assignment Description
 
 ### Evidence
 
@@ -230,7 +225,7 @@ Code goes here
 
 
 
-## NextAssignment3
+## BlankAssignment
 
 ### Description & Code
 
