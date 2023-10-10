@@ -213,13 +213,18 @@ This assignment was a nice little reminder of the mechanics of Onshape. Designin
 ## Onshape_Swing_Arm
 
 ### Assignment Description
+In this assignment I was tasked with creating an Onshape model of a Swing Arm using a provided drawing with measurements.
 
 ### Evidence
 
-### Wiring
+![Screenshot (9)](https://github.com/jmoran40/engr3/assets/143545030/ffad2178-407a-44fd-9b50-eaf0bb8c9589)
+
+### Part Link
+
+[Swing Arm](https://cvilleschools.onshape.com/documents/e0feadfada2a269be91a2203/w/f2f8b52f8ca190583ea5da17/e/d6c098494ba086dd19f6edd9?renderMode=0&uiState=6525a743fcf0840f7c14adcd).
 
 ### Reflection
-
+This one took me a couple days to sort out. The biggest thing I took away from this assignment is that when dimensioning objects, perspective is an important matter. it seemed that half the time I made something a certain distance or angle, it would be wrong because it turned out I deminsioned the object to the wrong dot or at the wrong angle with the correct position being slightly to the left.
 
 
 
