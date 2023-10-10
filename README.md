@@ -9,7 +9,7 @@ This repository will actually serve as an aid to help you get started with your 
 * [Onshape Hanger](#Onshape_Hanger)
 * [NextAssignment2](#NextAssignment2)
 * [NextAssignment3](#NextAssignment3)
-* [NextAssignment3](#NextAssignment)
+* [NextAssignment](#NextAssignment)
 ---
 
 ## Hello_CircuitPython
