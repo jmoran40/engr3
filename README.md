@@ -6,9 +6,10 @@ This repository will actually serve as an aid to help you get started with your 
 * [CircuitPython_Servo](#CircuitPython_Servo)
 * [CircuitPython_LCD](#CircuitPython_LCD)
 * [Distance Sensor](#Distance_Sensor)
+* [Onshape Hanger](#Onshape_Hanger)
 * [NextAssignment2](#NextAssignment2)
 * [NextAssignment3](#NextAssignment3)
-* [Onshape Hanger](#Onshape_Hanger)
+* [NextAssignment3](#NextAssignment)
 ---
 
 ## Hello_CircuitPython
@@ -189,6 +190,27 @@ The wiring of this assignment was not at all hard because it remained the same f
 
 
 
+## Onshape_Hanger
+
+### Assignment Description
+
+In this assignment I was tasked with creating an Onshape model of a hanger using a provided drawing with measurements.
+
+### Evidence
+
+![Screenshot (8)](https://github.com/jmoran40/engr3/assets/143545030/6c0a0c7c-2276-45ed-927c-c57e23e14b3d)
+
+### Part Link
+
+[The Hanger](https://cvilleschools.onshape.com/documents/89cfbffc3234559d2e2b49d1/w/b9303e32817641222ffe2adb/e/7074864c13d3b3d2b6e61565?renderMode=0&uiState=651c614f733921666e1a872d).
+
+### Reflection
+This assignment was a nice little reminder of the mechanics of Onshape. Designing models from images and measurements always was a fun little puzzle to me. It also helps with reawakening the problem solving part of the brain that sometimes goes a but dormant over the summer.
+
+
+
+
+
 ## NextAssignment2
 
 ### Description & Code
@@ -227,19 +249,17 @@ Code goes here
 
 
 
-## Onshape_Hanger
+## NextAssignment
 
-### Assignment Description
+### Description & Code
 
-In this assignment I was tasked with creating an Onshape model of a hanger using a provided drawing with measurements.
+```python
+Code goes here
+
+```
 
 ### Evidence
 
-![Screenshot (8)](https://github.com/jmoran40/engr3/assets/143545030/6c0a0c7c-2276-45ed-927c-c57e23e14b3d)
-
-### Part Link
-
-[The Hanger](https://cvilleschools.onshape.com/documents/89cfbffc3234559d2e2b49d1/w/b9303e32817641222ffe2adb/e/7074864c13d3b3d2b6e61565?renderMode=0&uiState=651c614f733921666e1a872d).
+### Wiring
 
 ### Reflection
-This assignment was a nice little reminder of the mechanics of Onshape. Designing models from images and measurements always was a fun little puzzle to me. It also helps with reawakening the problem solving part of the brain that sometimes goes a but dormant over the summer.
