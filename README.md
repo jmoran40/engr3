@@ -193,7 +193,6 @@ The wiring of this assignment was not at all hard because it remained the same f
 ## Onshape_Hanger
 
 ### Assignment Description
-
 In this assignment I was tasked with creating an Onshape model of a hanger using a provided drawing with measurements.
 
 ### Evidence
