@@ -101,27 +101,6 @@ First assignment of the year and it I feel like ive been thrown into the deep en
 
 
 
-## CircuitPython_MotorControl
-
-### Description & Code
-
-```python
-Code goes here
-
-```
-
-### Evidence
-
-Pictures / Gifs of your work should go here.  You need to communicate what your thing does.
-
-### Wiring
-
-### Reflection
-
-
-
-
-
 ## Distance_Sensor
 
 ### Description & Code
@@ -190,6 +169,42 @@ The wiring of this assignment was not at all hard because it remained the same f
 
 
 
+## CircuitPython_MotorControl
+
+### Description & Code
+In this assignment I was tasked with matching the speed of a DC motor to the value of a potentiometer.
+
+```python
+import time
+import board
+from analogio import AnalogIn
+import pwmio
+
+pwn = pwmio.PWMOut(board.D3)
+potentiometer = AnalogIn(board.A0)
+
+while True:
+    print((potentiometer.value))
+    time.sleep(0.1)
+    pwn.duty_cycle = potentiometer.value
+    time.sleep(0.1)
+```
+
+### Evidence
+
+![ezgif-2-7d42b55338](https://github.com/jmoran40/engr3/assets/143545030/fdd52f99-17f7-4326-8514-b7ec4c6fd89f)
+
+### Wiring
+
+![Screenshot (10)](https://github.com/jmoran40/engr3/assets/143545030/88a47919-a967-4cd7-a499-81d54e6c718d)
+
+### Reflection
+This assignment did not take a huge amount of effort. The code was suprisingly simple and while the wiring took some time to figure out, it was only because I was heavily overthinking the solution. The most suprising part for me was that it worked on the first. No bad parts, no coding error, and no dead batteries. It felt good to acomplish in a day something that once took a week.
+
+
+
+
+
 ## Onshape_Hanger
 
 ### Assignment Description
@@ -225,6 +240,7 @@ In this assignment I was tasked with creating an Onshape model of a Swing Arm us
 
 ### Reflection
 This one took me a couple days to sort out. The biggest thing I took away from this assignment is that when dimensioning objects, perspective is an important matter. it seemed that half the time I made something a certain distance or angle, it would be wrong because it turned out I deminsioned the object to the wrong dot or at the wrong angle with the correct position being slightly to the left.
+
 
 
 
