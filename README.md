@@ -4,7 +4,7 @@ This repository will actually serve as an aid to help you get started with your 
 * [Table of Contents](#TableOfContents)
 * [Hello_CircuitPython](#Hello_CircuitPython)
 * [CircuitPython_Servo](#CircuitPython_Servo)
-* [CircuitPython_LCD](#CircuitPython_LCD)
+* [CircuitPython_MotorControl](#CircuitPython_MotorControl)
 * [Distance Sensor](#Distance_Sensor)
 * [Onshape_Hanger](#Onshape_Hanger)
 * [Onshape_Swing_Arm](#Onshape_Swing_Arm)
@@ -101,7 +101,7 @@ First assignment of the year and it I feel like ive been thrown into the deep en
 
 
 
-## CircuitPython_LCD
+## CircuitPython_MotorControl
 
 ### Description & Code
 
