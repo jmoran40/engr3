@@ -8,7 +8,7 @@ This repository will actually serve as an aid to help you get started with your 
 * [CircuitPython_MotorControl](#CircuitPython_MotorControl)
 * [Onshape_Hanger](#Onshape_Hanger)
 * [Onshape_Swing_Arm](#Onshape_Swing_Arm)
-* [BlankAssignment](#BlankAssignment)
+* [Multi_Part_Cylinder](#Multi_Part_Cylinder)
 * [NextAssignment](#NextAssignment)
 ---
 
@@ -245,20 +245,21 @@ This one took me a couple days to sort out. The biggest thing I took away from t
 
 
 
-## BlankAssignment
+## Multi_Part_Cylinder
 
-### Description & Code
-
-```python
-Code goes here
-
-```
+### Assignment Description
+In this assignment I was tasked with following several blueprints to create a multi-part cylinder and then making adjustments to various parts.
 
 ### Evidence
 
-### Wiring
+![Screenshot (11)](https://github.com/jmoran40/engr3/assets/143545030/d64df737-a68c-4838-acf4-b7328e51c5d6)
+
+### Part Link
+
+[Multi_Part_Cylinder](https://cvilleschools.onshape.com/documents/f623e5638e8bd6256d9230ac/w/bab2428146fdc277252dae3d/e/3f5fd60527cb5fae035d8c52?renderMode=0&uiState=654bed9f666cea56cff270ba).
 
 ### Reflection
+The longer I worked on this assignment, the easier it became. The measurements were simple, but applying them required time, perspective, and a bit of double checking. The most confusing parts were the extrusions as each part had to fit into the other parts at a specific amount. The answers were all in the framework, it just took time to find them.
 
 
 
