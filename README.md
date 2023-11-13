@@ -9,6 +9,9 @@ This repository will actually serve as an aid to help you get started with your 
 * [Onshape_Hanger](#Onshape_Hanger)
 * [Onshape_Swing_Arm](#Onshape_Swing_Arm)
 * [Multi_Part_Cylinder](#Multi_Part_Cylinder)
+* [Onshape_Prep1_Single_Part](#Onshape_Prep1_Single_Part)
+* [Alignment_Plate](Alignment_Plate)
+* [Onshape_Prep2_Multi_Part](Onshape_Prep2_Multi_Part)
 * [NextAssignment](#NextAssignment)
 ---
 
@@ -43,7 +46,6 @@ Then post an image here.   [here's a quick tutorial for all markdown code, like 
 
 ### Reflection
 What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience?  Your ultimate goal for the reflection is to pass on the knowledge that will make this assignment better or easier for the next person.
-
 
 
 
@@ -96,8 +98,6 @@ while True:
 
 ### Reflection
 First assignment of the year and it I feel like ive been thrown into the deep end of a pool. The good news was though I was quite lost at the start, by the end I had learned the essentials of working with CircuitPython. This not only applies in the literal sense of getting to understand the code language itself, but understanding the tools that are used to convey that language. Even now as a write this I'm learning how to utilize the connection between Visual Studio Code and Github. As for the assignment itself, the hardware was familar albeit shinier and the software took some time to understand but wasn't too overwealming.
-
-
 
 
 
@@ -167,8 +167,6 @@ The wiring of this assignment was not at all hard because it remained the same f
 
 
 
-
-
 ## CircuitPython_MotorControl
 
 ### Description & Code
@@ -203,8 +201,6 @@ This assignment did not take a huge amount of effort. The code was suprisingly s
 
 
 
-
-
 ## Onshape_Hanger
 
 ### Assignment Description
@@ -220,8 +216,6 @@ In this assignment I was tasked with creating an Onshape model of a hanger using
 
 ### Reflection
 This assignment was a nice little reminder of the mechanics of Onshape. Designing models from images and measurements always was a fun little puzzle to me. It also helps with reawakening the problem solving part of the brain that sometimes goes a but dormant over the summer.
-
-
 
 
 
@@ -243,8 +237,6 @@ This one took me a couple days to sort out. The biggest thing I took away from t
 
 
 
-
-
 ## Multi_Part_Cylinder
 
 ### Assignment Description
@@ -262,6 +254,55 @@ In this assignment I was tasked with following several blueprints to create a mu
 The longer I worked on this assignment, the easier it became. The measurements were simple, but applying them required time, perspective, and a bit of double checking. The most confusing parts were the extrusions as each part had to fit into the other parts at a specific amount. The answers were all in the framework, it just took time to find them.
 
 
+
+## Onshape_Prep1_Single_Part
+
+### Assignment Description
+Example Text
+
+### Evidence
+
+Link
+
+### Part Link
+
+Link
+
+### Reflection
+
+
+
+## Alignment_Plate
+
+### Assignment Description
+Example Text
+
+### Evidence
+
+Link
+
+### Part Link
+
+Link
+
+### Reflection
+
+
+
+## Onshape_Prep2_Multi_Part
+
+### Assignment Description
+Example Text
+
+### Evidence
+
+Link
+
+### Part Link
+
+Link
+
+### Reflection
 
 
 
