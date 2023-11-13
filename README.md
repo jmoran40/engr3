@@ -212,7 +212,7 @@ In this assignment I was tasked with creating an Onshape model of a hanger using
 
 ### Part Link
 
-[The Hanger](https://cvilleschools.onshape.com/documents/89cfbffc3234559d2e2b49d1/w/b9303e32817641222ffe2adb/e/7074864c13d3b3d2b6e61565?renderMode=0&uiState=651c614f733921666e1a872d).
+[The Hanger](https://cvilleschools.onshape.com/documents/89cfbffc3234559d2e2b49d1/w/b9303e32817641222ffe2adb/e/7074864c13d3b3d2b6e61565?renderMode=0&uiState=651c614f733921666e1a872d)
 
 ### Reflection
 This assignment was a nice little reminder of the mechanics of Onshape. Designing models from images and measurements always was a fun little puzzle to me. It also helps with reawakening the problem solving part of the brain that sometimes goes a but dormant over the summer.
@@ -230,7 +230,7 @@ In this assignment I was tasked with creating an Onshape model of a Swing Arm us
 
 ### Part Link
 
-[Swing Arm](https://cvilleschools.onshape.com/documents/e0feadfada2a269be91a2203/w/f2f8b52f8ca190583ea5da17/e/d6c098494ba086dd19f6edd9?renderMode=0&uiState=6525a743fcf0840f7c14adcd).
+[Swing Arm](https://cvilleschools.onshape.com/documents/e0feadfada2a269be91a2203/w/f2f8b52f8ca190583ea5da17/e/d6c098494ba086dd19f6edd9?renderMode=0&uiState=6525a743fcf0840f7c14adcd)
 
 ### Reflection
 This one took me a couple days to sort out. The biggest thing I took away from this assignment is that when dimensioning objects, perspective is an important matter. it seemed that half the time I made something a certain distance or angle, it would be wrong because it turned out I deminsioned the object to the wrong dot or at the wrong angle with the correct position being slightly to the left.
@@ -248,7 +248,7 @@ In this assignment I was tasked with following several blueprints to create a mu
 
 ### Part Link
 
-[Multi_Part_Cylinder](https://cvilleschools.onshape.com/documents/f623e5638e8bd6256d9230ac/w/bab2428146fdc277252dae3d/e/3f5fd60527cb5fae035d8c52?renderMode=0&uiState=654bed9f666cea56cff270ba).
+[Multi Part Cylinder](https://cvilleschools.onshape.com/documents/f623e5638e8bd6256d9230ac/w/bab2428146fdc277252dae3d/e/3f5fd60527cb5fae035d8c52?renderMode=0&uiState=654bed9f666cea56cff270ba)
 
 ### Reflection
 The longer I worked on this assignment, the easier it became. The measurements were simple, but applying them required time, perspective, and a bit of double checking. The most confusing parts were the extrusions as each part had to fit into the other parts at a specific amount. The answers were all in the framework, it just took time to find them.
@@ -258,17 +258,18 @@ The longer I worked on this assignment, the easier it became. The measurements w
 ## Onshape_Prep1_Single_Part
 
 ### Assignment Description
-Example Text
+This goal of this assignment was to prepare me for the Onshape Certification Exam. The task given in part one was to design a single part and make serveral modifications to it based off of provided instructions while gathering data from each revision to make sure the design process was being handled correctly.
 
 ### Evidence
 
-Link
+![Screenshot (12)](https://github.com/jmoran40/engr3/assets/143545030/a4838067-90af-4d15-a8f6-c5517a06ba53)
 
 ### Part Link
 
-Link
+[Single Part](https://cvilleschools.onshape.com/documents/f1629d409ebdf1740f32d932/w/1bc30b5c843b57b1dc047b3d/e/64288bf2a70eed94d973f27c?renderMode=0&uiState=655286c784a9b10b732c9471)
 
 ### Reflection
+The Multi Part Cylinder served as a nice warm-up for these type of assignments. The part was not that hard to make, which is good because it means that I am getting better at reading blueprints. One small thing I learned was to learn closely at the blueprints when trying to find the specific value to dimension something by. I can be easy for measurements to slip under the radar.
 
 
 
