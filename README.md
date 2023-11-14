@@ -276,17 +276,18 @@ The Multi Part Cylinder served as a nice warm-up for these type of assignments. 
 ## Alignment_Plate
 
 ### Assignment Description
-Example Text
+In this assignment I had to model part from the CAD Challenges collection.
 
 ### Evidence
 
-Link
+![Screenshot (16)](https://github.com/jmoran40/engr3/assets/143545030/ffeffebd-2ba7-41d2-83ae-9e194dab7f83)
 
 ### Part Link
 
-Link
+[Alignment Plate](https://cvilleschools.onshape.com/documents/968eae039094d60e168f1a9c/w/e3ba294aa2c3d29b17cdcae5/e/99572f7316603be4129c4bda?renderMode=0&uiState=6553d0080f4f635af2b9011a)
 
 ### Reflection
+Compared to some of the other parts i've had to make so far this one wasn't that challenging. It was good practice for dealing with three point curves and working under a timer. It also reminded me not to forget about fillets and chamfers.
 
 
 
