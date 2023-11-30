@@ -12,6 +12,7 @@ This repository will actually serve as an aid to help you get started with your 
 * [Onshape_Prep1_Single_Part](#Onshape_Prep1_Single_Part)
 * [Alignment_Plate](Alignment_Plate)
 * [Onshape_Prep2_Multi_Part](Onshape_Prep2_Multi_Part)
+* [Onshape_Prep3_Assemblies](Onshape_Prep3_Assemblies)
 * [NextAssignment](#NextAssignment)
 ---
 
@@ -292,6 +293,24 @@ Compared to some of the other parts i've had to make so far this one wasn't that
 
 
 ## Onshape_Prep2_Multi_Part
+
+### Assignment Description
+This goal of this assignment was to prepare me for the Onshape Certification Exam. The task given in part two was to design multiple parts and make serveral modifications to them based off of provided instructions while gathering data from each revision to make sure the design process was being handled correctly.
+
+### Evidence
+
+![Screenshot (17)](https://github.com/jmoran40/engr3/assets/143545030/2d5ae3ff-458c-486f-852b-20a9b4218d7d)
+
+### Part Link
+
+[Multi Part](https://cvilleschools.onshape.com/documents/2ccefdf664076d464e8baf79/w/5129a2aaa06e159b3362b2d1/e/3d2beba869ec012739e5c0d7?renderMode=0&uiState=6568f33b0e6f7947007c663e)
+
+### Reflection
+More practice, this time was several parts instead of just one. Learned/reminded what TYP means when refering to measurements and learned how to use a sketch as a reference to create other sketchs. The process was mostly smooth with only a few hiccups.
+
+
+
+## Onshape_Prep3_Assemblies
 
 ### Assignment Description
 Example Text
