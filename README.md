@@ -313,7 +313,7 @@ More practice, this time was several parts instead of just one. Learned/reminded
 ## Onshape_Prep3_Assemblies
 
 ### Assignment Description
-Example Text
+This goal of this assignment was to prepare me for the Onshape Certification Exam. The task given in part three was to take several parts designed in Onshape and to assemble them in various different ways while gathering data from each assembly to ensure the process was being done correctly.
 
 ### Evidence
 
