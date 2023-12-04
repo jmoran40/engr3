@@ -317,13 +317,14 @@ This goal of this assignment was to prepare me for the Onshape Certification Exa
 
 ### Evidence
 
-Link
+![Screenshot (18)](https://github.com/jmoran40/engr3/assets/143545030/8fc1d123-0bca-402b-9a37-325858244c8f)
 
 ### Part Link
 
 Link
 
 ### Reflection
+This one was unique. The entire time I was waiting for the moment when I would have to change the dimensions of the parts themselves and I was suprised when that moment never came. The various ways the in which the parts needed to be assembled taught me how to use the different types of mates in the assembly page, which will be useful for the future.
 
 
 
