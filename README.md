@@ -321,7 +321,7 @@ This goal of this assignment was to prepare me for the Onshape Certification Exa
 
 ### Part Link
 
-Link
+[Assemblies](https://cvilleschools.onshape.com/documents/ff22f25eaad062b5ea86273f/w/05709aa6c35c5bb288f93229/e/c9a0fa46e442987adc5129f8?renderMode=0&uiState=65722a41e18c8a43ee6584cd)
 
 ### Reflection
 This one was unique. The entire time I was waiting for the moment when I would have to change the dimensions of the parts themselves and I was suprised when that moment never came. The various ways the in which the parts needed to be assembled taught me how to use the different types of mates in the assembly page, which will be useful for the future.
