@@ -8,7 +8,7 @@ from lcd.i2c_pcf8574_interface import I2CPCF8574Interface
 
 # This code is for setting up the Encoder, LCD, and Neopixel
 enc = rotaryio.IncrementalEncoder(board.D4, board.D3, divisor=2)
-lcd = LCD(I2CPCF8574Interface(board.I2C(), 0X3F), num_rows = 2, num_colms = 16)
+#lcd = LCD(I2CPCF8574Interface(board.I2C(), 0X3F), num_rows = 2, num_colms = 16)
 led = neopixel.NeoPixel(board.NEOPIXEL, 1)
 led.brightness = 0.3
 led[0] = (255, 0, 0)
@@ -22,4 +22,5 @@ while True:
     if not button.value and button_state is None:
         button_state = "pressed"
     if button.value and button_state == "pressed":
+        print("Button Is Pressed")
         button_state = None
