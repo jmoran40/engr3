@@ -6,9 +6,9 @@ import digitalio
 from lcd.lcd import LCD
 from lcd.i2c_pcf8574_interface import I2CPCF8574Interface
 
-# This code is for setting up the Encoder, LCD, and Neopixel
+# Encoder, LCD, and Neopixel Set-Up
 enc = rotaryio.IncrementalEncoder(board.D4, board.D3, divisor=2)
-#lcd = LCD(I2CPCF8574Interface(board.I2C(), 0X3F), num_rows = 2, num_colms = 16)
+lcd = LCD(I2CPCF8574Interface(board.I2C(), 0X27), num_rows = 2, num_cols = 16)
 led = neopixel.NeoPixel(board.NEOPIXEL, 1)
 led.brightness = 0.3
 led[0] = (255, 0, 0)
@@ -18,19 +18,32 @@ button.pull = digitalio.Pull.UP
 button_state = None
 
 # Menu/List Setup
-menu = ["stop", "caution", "go" ]
+menu = ["Stop", "Caution", "Go" ]
 last_index = None
 menu_index = 0
 
 while True:
+    # Code for the Coder to Code the Encoder
+    menu_index = enc.position
+    menu_index_lcd = menu_index % 3
+    menu[menu_index_lcd]
+    last_index = menu_index
+    # LCD Display code
+    lcd.set_cursor_pos(0,0)
+    lcd.print("Push For:")
+    lcd.set_cursor_pos(1,0)
+    lcd.print("          ")
+    lcd.set_cursor_pos(1,0)
+    lcd.print(menu[menu_index_lcd])
     # This code registers when the button is pressed
     if not button.value and button_state is None:
         button_state = "pressed"
     if button.value and button_state == "pressed":
-        print("Button Is Pressed")
+        # Red Light Green Light (Yellow Light too)
+        if menu_index_lcd == 0:
+            led[0] = (255, 0, 0)
+        if menu_index_lcd == 1:
+            led[0] = (255, 255, 0)
+        if menu_index_lcd == 2:
+            led[0] = (0, 255, 0)
         button_state = None
-    # Code for the Coder to Code the Encoder
-    menu_index = enc.position
-    if last_index is None or menu_index != last_index:
-        print(menu_index)
-    last_index = menu_index
