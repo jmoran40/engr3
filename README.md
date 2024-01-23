@@ -13,6 +13,7 @@ This repository will actually serve as an aid to help you get started with your 
 * [Alignment_Plate](Alignment_Plate)
 * [Onshape_Prep2_Multi_Part](Onshape_Prep2_Multi_Part)
 * [Onshape_Prep3_Assemblies](Onshape_Prep3_Assemblies)
+* [Rotary_Encoder_&_LCD](Rotary_Encoder_&_LCD)
 * [NextAssignment](#NextAssignment)
 ---
 
@@ -325,6 +326,76 @@ This goal of this assignment was to prepare me for the Onshape Certification Exa
 
 ### Reflection
 This one was unique. The entire time I was waiting for the moment when I would have to change the dimensions of the parts themselves and I was suprised when that moment never came. The various ways the in which the parts needed to be assembled taught me how to use the different types of mates in the assembly page, which will be useful for the future.
+
+
+
+## Rotary_Encoder_&_LCD
+
+### Description & Code
+In this assignment I had to use an LCD, Neopixel, and Rotary Encoder to create a stoplight that would display either "stop", "caution", or "go" depending on the postion of the rotary encoder along with changing colors to match the currently active mode when the rotary encoder's button was pressed.
+
+```python
+# This code is for importing libraries
+import rotaryio
+import board
+import neopixel
+import digitalio
+from lcd.lcd import LCD
+from lcd.i2c_pcf8574_interface import I2CPCF8574Interface
+
+# Encoder, LCD, and Neopixel Set-Up
+enc = rotaryio.IncrementalEncoder(board.D4, board.D3, divisor=2)
+lcd = LCD(I2CPCF8574Interface(board.I2C(), 0X27), num_rows = 2, num_cols = 16)
+led = neopixel.NeoPixel(board.NEOPIXEL, 1)
+led.brightness = 0.3
+led[0] = (255, 0, 0)
+button = digitalio.DigitalInOut(board.D2)
+button.direction = digitalio.Direction.INPUT
+button.pull = digitalio.Pull.UP
+button_state = None
+
+# Menu/List Setup
+menu = ["Stop", "Caution", "Go" ]
+last_index = None
+menu_index = 0
+
+while True:
+    # Code for the Coder to Code the Encoder
+    menu_index = enc.position
+    menu_index_lcd = menu_index % 3
+    menu[menu_index_lcd]
+    last_index = menu_index
+    # LCD Display code
+    lcd.set_cursor_pos(0,0)
+    lcd.print("Push For:")
+    lcd.set_cursor_pos(1,0)
+    lcd.print("          ")
+    lcd.set_cursor_pos(1,0)
+    lcd.print(menu[menu_index_lcd])
+    # This code registers when the button is pressed
+    if not button.value and button_state is None:
+        button_state = "pressed"
+    if button.value and button_state == "pressed":
+        # Red Light Green Light (Yellow Light too)
+        if menu_index_lcd == 0:
+            led[0] = (255, 0, 0)
+        if menu_index_lcd == 1:
+            led[0] = (255, 255, 0)
+        if menu_index_lcd == 2:
+            led[0] = (0, 255, 0)
+        button_state = None
+```
+
+### Evidence
+
+![ezgif-7-8b2707b5e9](https://github.com/jmoran40/engr3/assets/143545030/7c51d9a7-9a00-47c5-b7b0-884da1615120)
+
+### Wiring
+
+![Screenshot (10)](https://github.com/jmoran40/engr3/assets/143545030/773bb19f-8755-4054-82e8-bb9bdc73176b)
+
+### Reflection
+This assignment had five parts: The wiring, LCD, the Neopixel, the Encoder, and puting it all together. The wiring was the easiest as at this point a simple wiring diagram and two minutes are all that's needed. The Neopixel was only a bit harder and that was just because I had to look up the RGB combination for the color yellow. The LCD and Encoder were the bread and butter of this assignment and took the most time to figure out but my knowledge from previous years of engineering made things easier. Finally, putting everything together was like assembling a puzzle, it was tricky for a moment but most things quickly and easily fell into place.
 
 
 
