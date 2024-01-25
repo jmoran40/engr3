@@ -14,6 +14,7 @@ This repository will actually serve as an aid to help you get started with your 
 * [Onshape_Prep2_Multi_Part](Onshape_Prep2_Multi_Part)
 * [Onshape_Prep3_Assemblies](Onshape_Prep3_Assemblies)
 * [Rotary_Encoder_&_LCD](Rotary_Encoder_&_LCD)
+* [Photointerrupters](Photointerrupters)
 * [NextAssignment](#NextAssignment)
 ---
 
@@ -396,6 +397,22 @@ while True:
 
 ### Reflection
 This assignment had five parts: The wiring, LCD, the Neopixel, the Encoder, and puting it all together. The wiring was the easiest as at this point a simple wiring diagram and two minutes are all that's needed. The Neopixel was only a bit harder and that was just because I had to look up the RGB combination for the color yellow. The LCD and Encoder were the bread and butter of this assignment and took the most time to figure out but my knowledge from previous years of engineering made things easier. Finally, putting everything together was like assembling a puzzle, it was tricky for a moment but most things quickly and easily fell into place.
+
+
+
+## Photointerrupters
+
+### Description & Code
+
+```python
+Code goes here
+```
+
+### Evidence
+
+### Wiring
+
+### Reflection
 
 
 
