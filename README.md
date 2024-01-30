@@ -403,18 +403,60 @@ This assignment had five parts: The wiring, LCD, the Neopixel, the Encoder, and 
 
 
 ## Photointerrupters
+In this assignment I has to use a LCD board to display the number of times a Photointerrupter had been interrupted.
 
 ### Description & Code
 
 ```python
-Code goes here
+# Library Imports
+import time
+import digitalio
+import board
+from lcd.lcd import LCD
+from lcd.i2c_pcf8574_interface import I2CPCF8574Interface
+
+# Setting Up Photointerrupter and LCD and also TIME ITSELF (but actually just monotonic)
+photointerrupter = digitalio.DigitalInOut(board.D5)
+photointerrupter.direction = digitalio.Direction.INPUT
+photointerrupter.pull = digitalio.Pull.UP
+photointerrupter_state = None
+interrupt_counter = 0
+lcd = LCD(I2CPCF8574Interface(board.I2C(), 0X27), num_rows = 2, num_cols = 16)
+now = time.monotonic()
+
+while True:
+    # Making the Photointerrupter do its thing
+    if photointerrupter.value and photointerrupter_state is None:
+        photointerrupter_state = "interrupted"
+    if photointerrupter_state == "interrupted":
+        print("interrupted")
+        interrupt_counter = interrupt_counter+1
+        photointerrupter_state = "Still Blocked"
+    if not photointerrupter.value and photointerrupter_state == "Still Blocked":
+        photointerrupter_state = None
+    if not photointerrupter.value and photointerrupter_state is None:
+        print("All Clear")
+
+    # Making the LCD do its thing
+    lcd.set_cursor_pos(0,0)
+    lcd.print("Interrupts: ")
+    # 4-Second LCD Update
+    if (now + 4) < time.monotonic():
+        lcd.set_cursor_pos(1,0)
+        lcd.print(str(interrupt_counter))
+        now = time.monotonic()
 ```
 
 ### Evidence
 
+![ezgif-5-a7623d816c](https://github.com/jmoran40/engr3/assets/143545030/62e4dee9-cb7f-442c-9320-61d0d1ceb77a)
+
 ### Wiring
 
+![Screenshot (19)](https://github.com/jmoran40/engr3/assets/143545030/9005bf80-1727-436f-9901-96365cf4f103)
+
 ### Reflection
+This assignment was structured very similarly to the previous one. The LCD wiring and coding was essentially the same while the rotary encoder was simply swaped out with a photointerrupter that was almost identically wired though a bit differently coded. I found the solution to this particular puzzle rather quickly but I did get stuck once or twice solely because I was missing certain characters (such as an extra equal sign or a pair of parenthesis) that broke certain functions. The monotonic library was interesting and gives me ideas for future projects.
 
 
 
@@ -424,7 +466,6 @@ Code goes here
 
 ```python
 Code goes here
-
 ```
 
 ### Evidence
@@ -441,7 +482,6 @@ Code goes here
 
 ```python
 Code goes here
-
 ```
 
 ### Evidence
@@ -458,7 +498,6 @@ Code goes here
 
 ```python
 Code goes here
-
 ```
 
 ### Evidence
