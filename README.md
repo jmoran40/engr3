@@ -15,6 +15,8 @@ This repository will actually serve as an aid to help you get started with your 
 * [Onshape_Prep3_Assemblies](Onshape_Prep3_Assemblies)
 * [Rotary_Encoder_&_LCD](Rotary_Encoder_&_LCD)
 * [Photointerrupters](Photointerrupters)
+* [Stepper_Motors_&_Limit Switches](Stepper_Motors_&_Limit_Switches)
+* [IR_Sensors](IR_Sensors)
 * [NextAssignment](#NextAssignment)
 ---
 
@@ -406,6 +408,40 @@ This assignment had five parts: The wiring, LCD, the Neopixel, the Encoder, and 
 
 ```python
 Code goes here
+```
+
+### Evidence
+
+### Wiring
+
+### Reflection
+
+
+
+## Stepper_Motors_&_Limit_Switches
+
+### Description & Code
+
+```python
+Code goes here
+
+```
+
+### Evidence
+
+### Wiring
+
+### Reflection
+
+
+
+## IR_Sensors
+
+### Description & Code
+
+```python
+Code goes here
+
 ```
 
 ### Evidence
