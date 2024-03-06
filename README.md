@@ -496,10 +496,22 @@ Code goes here
 ## Robot_Gripper
 
 ### Description
+The Goal of this assignment was to create the gripper of a robotic claw. The only requirements were that it had to be fully modeled and animated in Onshape, had to be made with parts that could be replicated in the real world, had to contain only one actuator, and had to have jaws that would fully close.
 
 ### Evidence
 
+![ezgif-5-565e7b35ec](https://github.com/jmoran40/engr3/assets/143545030/067fb504-fcbe-41e4-add9-4cd5f26393d3)
+
+### Part Link
+
+[Robot Gripper](https://cvilleschools.onshape.com/documents/d5e74f74db73ed51daf7c947/w/21c2d0403a5eabf435c20b8a/e/20742644a309e7b68f17d64a)
+
+### Bill of Materials
+
+![Screenshot (2)](https://github.com/jmoran40/engr3/assets/143545030/05e98f37-e441-4826-9dcb-82960cf56714)
+
 ### Reflection
+This was my first Onshape assignment (assignment, not project) where I was given a loose set of parameters and sent off to figure it out for myself. The hardest part was just getting started as finding a mechanation that was satisfy the requirements was difficult. There was centainly a great deal of trial and error involved but my experience with Onshape the past couple of years and a bit of creativity helped me get through, or even avoid at times, most major roadblocks. When I was done, I certainly was proud of the resulting hand-crank powered hammer and anvil device I had created.
 
 
 
