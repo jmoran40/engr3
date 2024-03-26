@@ -480,16 +480,44 @@ Code goes here
 ## IR_Sensors
 
 ### Description & Code
+In this assignment I was tasked with coding an IR sensor to detect when an object was near and to change the color of a RGB LED accordingly.
 
 ```python
-Code goes here
+# Library Imports
+import board
+import neopixel
+import digitalio
+
+# IR Sensor Set-Up
+ir_sensor = digitalio.DigitalInOut(board.D3)
+ir_sensor.direction = digitalio.Direction.INPUT
+ir_sensor.pull = digitalio.Pull.UP
+# LED Set-UP
+led = neopixel.NeoPixel(board.NEOPIXEL, 1)
+led.brightness = 0.3
+led[0] = (255, 0, 0)
+
+while True:
+    # If something is close to the IR Sensor, notify serial moniter and LED is Red
+    if ir_sensor.value == False:
+        print("Close")
+        led[0] = (255, 0, 0)
+    # If nothing is close to the IR Sensor, notify serial moniter and LED is Green
+    if ir_sensor.value == True:
+        print("Far")
+        led[0] = (0, 255, 0)
 ```
 
 ### Evidence
 
+![ezgif-7-e55dcd95c6](https://github.com/jmoran40/engr3/assets/143545030/04a9b63c-9ec3-4ff6-8af6-39e2daf2598b)
+
 ### Wiring
 
+![Screenshot (20)](https://github.com/jmoran40/engr3/assets/143545030/6d079946-007b-4b4c-ab03-379f982b3026)
+
 ### Reflection
+I thought this assignment would be hard, but it was actually rather simple. Most of the code I knew from other assignments and the only new code was a variation on the set-up code for the rotary encoder. The hardest part of this assigment was just remembering how to code as I had been working on Onshape for quite some time and I needed a quick refresher on the basics. This assignment was a nice reminder.
 
 
 
